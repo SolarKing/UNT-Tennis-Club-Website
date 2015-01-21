@@ -190,30 +190,7 @@
    <script type="text/javascript"
     src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript">
-
-      function navbarPos() {
-         var h = $("#utc-header").height(); // height if #utc-header
-         var pos = $(window).scrollTop(); 
-
-         if (pos < h) {
-            $("#utc-navbar").css({
-               position:"absolute",
-               top: h
-            });   
-         } else {
-            $("#utc-navbar").css({
-               position:"fixed",
-               top: 0
-            });
-         }
-      }
-
-      $(window).scroll(function() {
-         navbarPos();
-      });
-     
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 
