@@ -1,0 +1,429 @@
+.icon {
+	display: inline-block;
+	color: #444444;
+	fill: currentColor;
+}
+.icon-home {
+	width: 32px;
+	height: 32px;
+}
+.icon-pencil2 {
+	width: 32px;
+	height: 32px;
+}
+.icon-image {
+	width: 32px;
+	height: 32px;
+}
+#icon-image .path1 {
+	fill: currentcolor;
+}
+#icon-image .path2 {
+	fill: currentcolor;
+}
+#icon-image .path3 {
+	fill: currentcolor;
+}
+.icon-images {
+	width: 36px;
+	height: 32px;
+}
+#icon-images .path1 {
+	fill: currentcolor;
+}
+#icon-images .path2 {
+	fill: currentcolor;
+}
+#icon-images .path3 {
+	fill: currentcolor;
+}
+.icon-camera {
+	width: 32px;
+	height: 32px;
+}
+.icon-play {
+	width: 32px;
+	height: 32px;
+}
+.icon-bullhorn {
+	width: 32px;
+	height: 32px;
+}
+.icon-connection {
+	width: 40px;
+	height: 32px;
+}
+.icon-library {
+	width: 34px;
+	height: 32px;
+}
+#icon-library .path1 {
+	fill: currentcolor;
+}
+#icon-library .path2 {
+	fill: currentcolor;
+}
+.icon-profile {
+	width: 32px;
+	height: 32px;
+}
+.icon-phone {
+	width: 32px;
+	height: 32px;
+}
+.icon-envelop {
+	width: 32px;
+	height: 32px;
+}
+.icon-compass2 {
+	width: 32px;
+	height: 32px;
+}
+.icon-clock {
+	width: 32px;
+	height: 32px;
+}
+.icon-stopwatch {
+	width: 32px;
+	height: 32px;
+}
+.icon-calendar {
+	width: 32px;
+	height: 32px;
+}
+.icon-display {
+	width: 32px;
+	height: 32px;
+}
+.icon-laptop {
+	width: 32px;
+	height: 32px;
+}
+.icon-mobile {
+	width: 32px;
+	height: 32px;
+}
+.icon-bubbles4 {
+	width: 36px;
+	height: 32px;
+}
+.icon-aid-kit {
+	width: 32px;
+	height: 32px;
+}
+.icon-stats-dots {
+	width: 32px;
+	height: 32px;
+}
+.icon-trophy {
+	width: 32px;
+	height: 32px;
+}
+.icon-spoon-knife {
+	width: 32px;
+	height: 32px;
+}
+.icon-airplane {
+	width: 32px;
+	height: 32px;
+}
+.icon-accessibility {
+	width: 32px;
+	height: 32px;
+}
+#icon-accessibility .path1 {
+	fill: currentcolor;
+}
+#icon-accessibility .path2 {
+	fill: currentcolor;
+}
+.icon-list-numbered {
+	width: 32px;
+	height: 32px;
+}
+.icon-list2 {
+	width: 32px;
+	height: 32px;
+}
+.icon-menu {
+	width: 32px;
+	height: 32px;
+}
+.icon-sphere {
+	width: 32px;
+	height: 32px;
+}
+.icon-earth {
+	width: 32px;
+	height: 32px;
+}
+.icon-sun {
+	width: 32px;
+	height: 32px;
+}
+#icon-sun .path1 {
+	fill: currentcolor;
+}
+#icon-sun .path2 {
+	fill: currentcolor;
+}
+.icon-star-empty {
+	width: 32px;
+	height: 32px;
+}
+.icon-star-full {
+	width: 32px;
+	height: 32px;
+}
+.icon-heart {
+	width: 32px;
+	height: 32px;
+}
+.icon-happy {
+	width: 32px;
+	height: 32px;
+}
+.icon-smile {
+	width: 32px;
+	height: 32px;
+}
+.icon-tongue {
+	width: 32px;
+	height: 32px;
+}
+.icon-sad {
+	width: 32px;
+	height: 32px;
+}
+.icon-wink {
+	width: 32px;
+	height: 32px;
+}
+.icon-grin {
+	width: 32px;
+	height: 32px;
+}
+.icon-cool {
+	width: 32px;
+	height: 32px;
+}
+.icon-angry {
+	width: 32px;
+	height: 32px;
+}
+.icon-evil {
+	width: 32px;
+	height: 32px;
+}
+.icon-shocked {
+	width: 32px;
+	height: 32px;
+}
+.icon-baffled {
+	width: 32px;
+	height: 32px;
+}
+#icon-baffled .path1 {
+	fill: currentcolor;
+}
+#icon-baffled .path2 {
+	fill: currentcolor;
+}
+#icon-baffled .path3 {
+	fill: currentcolor;
+}
+#icon-baffled .path4 {
+	fill: currentcolor;
+}
+#icon-baffled .path5 {
+	fill: currentcolor;
+}
+#icon-baffled .path6 {
+	fill: currentcolor;
+}
+.icon-confused {
+	width: 32px;
+	height: 32px;
+}
+.icon-neutral {
+	width: 32px;
+	height: 32px;
+}
+.icon-hipster {
+	width: 32px;
+	height: 32px;
+}
+#icon-hipster .path1 {
+	fill: currentcolor;
+}
+#icon-hipster .path2 {
+	fill: currentcolor;
+}
+#icon-hipster .path3 {
+	fill: currentcolor;
+}
+.icon-wondering {
+	width: 32px;
+	height: 32px;
+}
+.icon-sleepy {
+	width: 32px;
+	height: 32px;
+}
+#icon-sleepy .path1 {
+	fill: currentcolor;
+}
+#icon-sleepy .path2 {
+	fill: currentcolor;
+}
+#icon-sleepy .path3 {
+	fill: currentcolor;
+}
+#icon-sleepy .path4 {
+	fill: currentcolor;
+}
+.icon-frustrated {
+	width: 32px;
+	height: 32px;
+}
+#icon-frustrated .path1 {
+	fill: currentcolor;
+}
+#icon-frustrated .path2 {
+	fill: currentcolor;
+}
+#icon-frustrated .path3 {
+	fill: currentcolor;
+}
+.icon-crying {
+	width: 32px;
+	height: 32px;
+}
+#icon-crying .path1 {
+	fill: currentcolor;
+}
+#icon-crying .path2 {
+	fill: currentcolor;
+}
+#icon-crying .path3 {
+	fill: currentcolor;
+}
+#icon-crying .path4 {
+	fill: currentcolor;
+}
+#icon-crying .path5 {
+	fill: currentcolor;
+}
+#icon-crying .path6 {
+	fill: currentcolor;
+}
+#icon-crying .path7 {
+	fill: currentcolor;
+}
+#icon-crying .path8 {
+	fill: currentcolor;
+}
+.icon-infinite {
+	width: 32px;
+	height: 32px;
+}
+.icon-circle-up {
+	width: 32px;
+	height: 32px;
+}
+#icon-circle-up .path1 {
+	fill: currentcolor;
+}
+#icon-circle-up .path2 {
+	fill: currentcolor;
+}
+.icon-circle-right {
+	width: 32px;
+	height: 32px;
+}
+#icon-circle-right .path1 {
+	fill: currentcolor;
+}
+#icon-circle-right .path2 {
+	fill: currentcolor;
+}
+.icon-circle-down {
+	width: 32px;
+	height: 32px;
+}
+#icon-circle-down .path1 {
+	fill: currentcolor;
+}
+#icon-circle-down .path2 {
+	fill: currentcolor;
+}
+.icon-circle-left {
+	width: 32px;
+	height: 32px;
+}
+#icon-circle-left .path1 {
+	fill: currentcolor;
+}
+#icon-circle-left .path2 {
+	fill: currentcolor;
+}
+.icon-checkbox-checked {
+	width: 32px;
+	height: 32px;
+}
+.icon-checkbox-unchecked {
+	width: 32px;
+	height: 32px;
+}
+.icon-radio-checked {
+	width: 32px;
+	height: 32px;
+}
+.icon-radio-unchecked {
+	width: 32px;
+	height: 32px;
+}
+.icon-mail4 {
+	width: 32px;
+	height: 32px;
+}
+.icon-google-plus3 {
+	width: 32px;
+	height: 32px;
+}
+.icon-facebook3 {
+	width: 32px;
+	height: 32px;
+}
+.icon-twitter3 {
+	width: 32px;
+	height: 32px;
+}
+.icon-html5 {
+	width: 32px;
+	height: 32px;
+}
+.icon-css3 {
+	width: 32px;
+	height: 32px;
+}
+.icon-chrome {
+	width: 32px;
+	height: 32px;
+}
+.icon-firefox {
+	width: 32px;
+	height: 32px;
+}
+.icon-IE {
+	width: 32px;
+	height: 32px;
+}
+.icon-opera {
+	width: 32px;
+	height: 32px;
+}
+.icon-safari {
+	width: 32px;
+	height: 32px;
+}
