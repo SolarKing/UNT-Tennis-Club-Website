@@ -1,0 +1,56 @@
+.utc-nav {
+  height: 40px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.utc-nav-link {
+  height: 40px;
+  display: inline-block;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  letter-spacing: .11em;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: background .2s, color .2s;
+  /* For Safari 3.1 to 6.0 */
+  transition: background .2s, color .2s;
+}
+.utc-nav-link:hover {
+  color: white;
+  text-decoration: none;
+  background: #01852c;
+}
+.utc-nav-link:focus {
+  color: white;
+  text-decoration: none;
+  background: #01852c;
+}
+
+.utc-box {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  min-height: 50px;
+  border-radius: 5px;
+  background: white;
+}
+
+.utc-box-img-top {
+  width: 100%;
+  margin: 0px;
+  border-radius: 5px 5px 0 0;
+}
+
+.utc-padding {
+  padding: 0 20px 10px;
+}
+
+.utc-left {
+  float: left;
+  overflow: auto;
+}
+
+.utc-right {
+  float: right;
+  overflow: auto;
+}

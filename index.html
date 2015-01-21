@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <title>UNT Tennis Club</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<body data-twttr-rendered="true">
+
+   <header id="utc-header">
+      <img id="utc-header-banner" src="img/banner-large.png">
+   </header>
+   <nav id="utc-navbar" style="position: absolute; top: 281px;">
+      <div class="container utc-nav">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="utc-right">
+                  <a class="utc-nav-link" href="#utc-header">Home</a>
+                  <a class="utc-nav-link" href="#about">About</a>
+                  <a class="utc-nav-link" href="#calendar">Calendar</a>
+               </div>
+               <img id="utc-navbrand" src="img/navbrand-large.png">
+            </div>
+         </div>
+         
+      </div>
+   </nav>
+
+   <main>
+      <!-- About Us Section -->
+      <section id="about">
+         <div class="container">
+            <div class="row">
+
+               <!-- Main Column -->
+               <div class="col-md-8">
+
+                  <div class="utc-box">
+                     <img class="utc-box-img-top" src="img/waranch2.jpg">
+                     <div class="row utc-padding">
+                        <h1 class="col-md-12">About Us</h1>
+                        <p class="col-md-12 lead">
+                           The UNT Tennis Club is a student-run organization aimed 
+                           towards promoting the growth, learning, and enjoyment of 
+                           tennis. Whether you are a spectator or dedicated player, 
+                           we welcome all who share a passion for the sport.
+                        </p>
+                        <p class="col-sm-6 ">
+                           For intermediate/advanced players we offer the opportunity 
+                           to compete in various tournaments in the USTA - 
+                           Texas Tennis on Campus Series. These tournaments are open 
+                           to all members and will take place at various college 
+                           campuses throughout Texas (ie. UT, Tech, A&amp;M, etc...).
+                        </p>
+                        <p class="col-sm-6 ">
+                           For the recreational player we offer regular social
+                           events and a fun-loving community of tennis
+                           enthusiasts.
+                        </p>
+                        <p class="col-sm-6 ">
+                           As a team we emphasize comradery, connecting
+                           students to UNT, supporting our amazing Women's
+                           Tennis Team, and connecting people who share a
+                           love for this awesome game called tennis. 
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="utc-box utc-padding">
+                  </div>
+
+                  <div class="utc-box utc-padding">
+                  </div>
+
+                  <div class="utc-box utc-padding">
+                  </div>
+               </div>
+               <!-- Side Column -->
+               <div class="col-md-4">
+                  <button id="utc-join-btn" class="btn btn-default">
+                     Join the Club!
+                  </button>
+                  <div class="" data-twttr-id="twttr-sandbox-0">
+                     <a class="twitter-timeline"
+                      href="https://twitter.com/untclubtennis"
+                      data-widget-id="556242514358071296">
+                        Tweets by @untclubtennis
+                     </a>
+                     <script>
+                        // twitter js
+                        !function(d,s,id) {
+                           var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+                           fjs.parentNode.insertBefore(js,fjs);
+                        }}(document,"script","twitter-wjs");
+                        // utc js
+                        setTimeout(function(){
+                           console.log("applied");
+                           $("#twitter-widget-0").css({
+                              maxWidth:"none",
+                              minWidth:"none",
+                              width:"100%"
+                           });
+
+                           // $("#twitter-widget-0").height(function() {
+                           //    console.log($("#about").height());
+                           //    return $("#about").height();
+                           // });
+
+                           $(".twitter-timeline").contents().find(".timeline-header").css({
+                              background: "#01852C",
+                              borderRadius: "5px 5px 0 0"
+                           });
+                           $(".twitter-timeline").contents().find(".timeline-footer").css({
+                              background: "#01852C",
+                              borderRadius: "0 0 5px 5px"
+                           });
+                           $(".twitter-timeline").contents().find('a[title="Tweets from UNT Club Tennis"]').css({
+                              color: "white"
+                           });
+                        }, 3000);
+                     </script>
+                  </div>
+                  <div class="utc-box">
+                     <img class="utc-box-img-top" src="img/team.jpg">
+                     <div class="utc-padding">
+                        <h1>Goals</h1>
+                        <ul>
+                           <li>Provide tennis skill instruction and fitness training three days a week. </li>
+                           <li>Operate as a USTA welcome center for the game of tennis.</li>
+                           <li>Provide practice and hitting sessions two days a week. </li>
+                           <li>Participate in at least five off-campus college club tennis tournaments. </li>
+                           <li>Host one college team tennis club tournaments.</li>
+                           <li>Host two community development fundraising tennis events.  </li>
+                           <li>Assist the Department of Campus Recreation with tennis development activities.</li>
+                           <li>Participate in the National Intramural Team Tennis Tournament.</li>
+                           <li>Act as a support group for the UNT Women's Tennis Team. </li>
+                        </ul>
+                     </div>
+                  </div>
+                  
+                  <div class="utc-box utc-padding">
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <!-- Calendar Section -->
+      <section id="calendar">
+         <div class="container">
+            <div class="row">
+               <div id="upto-calendar-container-OqeO" class="upto-calendar-plugin col-md-12">
+                  <script>
+                     !function(c,b,a){
+                        function d(h){
+                           var e=document.getElementById("upto-calendar-container-"+c),
+                           f=document.createElement("SCRIPT"),g="https://upto.com/js/plugin.js";
+                           f.onreadystatechange=function(){
+                              if(f.readyState==="loaded"||f.readyState==="complete"){
+                                 f.onreadystatechange=null;h()
+                              }
+                           };
+                           f.onload=function(){h()};
+                           f.setAttribute("src",g);
+                           e.parentNode.insertBefore(f,e)
+                        }d(function(){upto.init(c)})}("OqeO");
+                  </script>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </main>
+
+   <footer>
+   </footer>
+
+   <!-- libs go here -->
+   <script type="text/javascript"
+    src="bower_components/jquery/dist/jquery.min.js"></script>
+
+   <script type="text/javascript"
+    src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+
+   <script type="text/javascript"
+    src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+      function navbarPos() {
+         var h = $("#utc-header").height(); // height if #utc-header
+         var pos = $(window).scrollTop(); 
+
+         if (pos < h) {
+            $("#utc-navbar").css({
+               position:"absolute",
+               top: h
+            });   
+         } else {
+            $("#utc-navbar").css({
+               position:"fixed",
+               top: 0
+            });
+         }
+      }
+
+      $(window).scroll(function() {
+         navbarPos();
+      });
+     
+    </script>
+
+</body>
+
+</html>
